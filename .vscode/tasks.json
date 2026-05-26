@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Compilar OpenGL Total",
+            "command": "C:\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "${workspaceFolder}\\src\\glad.c",
+                "-o",
+                "${workspaceFolder}\\a.exe",
+                "-I", "${workspaceFolder}\\include",
+                "-L", "${workspaceFolder}\\lib",
+                "${workspaceFolder}\\freeglut.dll",
+                "${workspaceFolder}\\glfw3.dll",
+                "-lopengl32",
+                "-lglu32",
+                "-lgdi32",
+                "-lwinmm"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compilador ajustado para FreeGLUT, GLFW e GLAD"
+        }
+    ]
+}
