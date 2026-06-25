@@ -229,7 +229,7 @@ void desenhaLoja() {
             glVertex3f(-3.1, 0.8, 0.0);
         glEnd(); 
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", -3.7, 0.9);
+        desenharTexto("15$", -3.7, 0.9);
         
         glBegin(GL_QUADS);
             glColor3f(0.0, 0.0, 0.0);
@@ -239,7 +239,7 @@ void desenhaLoja() {
             glVertex3f(-1.3, 0.8, 0.0);
         glEnd();
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", -1.9, 0.9);
+        desenharTexto("15$", -1.9, 0.9);
 
         glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -249,7 +249,7 @@ void desenhaLoja() {
             glVertex3f( 0.5f, 0.8f, 0.0f);
         glEnd();
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", -0.1, 0.9);
+        desenharTexto("15$", -0.1, 0.9);
 
         glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -259,7 +259,7 @@ void desenhaLoja() {
             glVertex3f( 2.3f, 0.8f, 0.0f);
         glEnd();
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", 1.7, 0.9);
+        desenharTexto("15$", 1.7, 0.9);
 
         glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -269,7 +269,7 @@ void desenhaLoja() {
             glVertex3f( 4.1f, 0.8f, 0.0f);
         glEnd();
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", 3.5, 0.9);
+        desenharTexto("20$", 3.5, 0.9);
 
         glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -279,7 +279,7 @@ void desenhaLoja() {
             glVertex3f(-3.1f, -1.5f, 0.0f);
         glEnd();
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", -3.7, -1.4);
+        desenharTexto("20$", -3.7, -1.4);
 
         glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -289,7 +289,7 @@ void desenhaLoja() {
             glVertex3f(-1.3f, -1.5f, 0.0f);
         glEnd();
         glColor3f(1.0, 1.0, 1.0); 
-        desenharTexto("10$", -1.9, -1.4);
+        desenharTexto("30$", -1.9, -1.4);
 
         glBegin(GL_QUADS);
            glColor3f(0.0f, 0.0f, 0.0f);
@@ -299,7 +299,7 @@ void desenhaLoja() {
            glVertex3f( 0.5f, -1.5f, 0.0f);
        glEnd();
        glColor3f(1.0, 1.0, 1.0); 
-       desenharTexto("10$", -0.1, -1.4);
+       desenharTexto("35$", -0.1, -1.4);
 
        glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -309,7 +309,7 @@ void desenhaLoja() {
             glVertex3f( 2.3f, -1.5f, 0.0f);
        glEnd();
        glColor3f(1.0, 1.0, 1.0); 
-       desenharTexto("10$", 1.7, -1.4);
+       desenharTexto("35$", 1.7, -1.4);
 
        glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -319,7 +319,7 @@ void desenhaLoja() {
             glVertex3f( 4.1f, -1.5f, 0.0f);
        glEnd();
        glColor3f(1.0, 1.0, 1.0); 
-       desenharTexto("10$", 3.5, -1.4);
+       desenharTexto("50$", 3.5, -1.4);
 
        glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -329,7 +329,7 @@ void desenhaLoja() {
             glVertex3f(-3.1f, -3.8f, 0.0f);
        glEnd();
        glColor3f(1.0, 1.0, 1.0); 
-       desenharTexto("10$", -3.7, -3.7);
+       desenharTexto("60$", -3.7, -3.7);
 
        glBegin(GL_QUADS);
         glColor3f(0.0f, 0.0f, 0.0f);
@@ -339,7 +339,7 @@ void desenhaLoja() {
             glVertex3f(-1.3f, -3.8f, 0.0f);
       glEnd();
       glColor3f(1.0, 1.0, 1.0); 
-      desenharTexto("10$", -1.9, -3.7);
+      desenharTexto("40$", -1.9, -3.7);
 
       glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -349,7 +349,7 @@ void desenhaLoja() {
             glVertex3f( 0.5f, -3.8f, 0.0f);
       glEnd();
       glColor3f(1.0, 1.0, 1.0); 
-      desenharTexto("10$", -0.1, -3.7);
+      desenharTexto("70$", -0.1, -3.7);
 
       glBegin(GL_QUADS);
             glColor3f(0.0f, 0.0f, 0.0f);
@@ -359,7 +359,7 @@ void desenhaLoja() {
             glVertex3f( 2.3f, -3.8f, 0.0f);
      glEnd();
      glColor3f(1.0, 1.0, 1.0); 
-     desenharTexto("10$", 1.7, -3.7);
+     desenharTexto("40$", 1.7, -3.7);
 
      glBegin(GL_QUADS);
     glColor3f(0.0f, 0.0f, 0.0f);
@@ -370,7 +370,7 @@ void desenhaLoja() {
 glEnd();
 
 glColor3f(1.0f, 1.0f, 1.0f);
-desenharTexto("10$", 3.5f, -3.7f);
+desenharTexto("100$", 3.5f, -3.7f);
 
 }
 
@@ -471,35 +471,16 @@ void desenharQuiz()
 {
     if(mostrandoResultado)
     {
-        desenharTexto(mensagemQuiz, -2, 1);
-        desenharTexto("Clique para continuar", -2, 0);
+        desenharTexto(mensagemQuiz, -0.8, 0);
+        desenharTexto("Clique para continuar", -0.8, -1);
         return;
     }
 
-    desenharTexto(quiz[perguntaAtual].pergunta, -4, 3);
+    desenharTexto(quiz[perguntaAtual].pergunta, -3.5, 2.6);
 
     // ---------- BOTÃO A ----------
-    if( moverMouseX >= -4.5 && moverMouseX <= 2.5 && moverMouseY >= 1.6  && moverMouseY <= 2.4)
-    {
-        glColor3f(0.0f, 1.0f, 0.0f); 
-    }
-    else
-    {
-        glColor3f(0.3f, 0.3f, 0.3f); 
-    }
-
-    glBegin(GL_QUADS);
-        glVertex2f(-4.5, 2.4);
-        glVertex2f( 2.5, 2.4);
-        glVertex2f( 2.5, 1.6);
-        glVertex2f(-4.5, 1.6);
-    glEnd();
-
-    glColor3f(1.0f, 1.0f, 1.0f);
-    desenharTexto("A) " + quiz[perguntaAtual].A, -4.0f, 2.0f);
-
-   
-    if( moverMouseX >= -4.5 && moverMouseX <= 2.5 && moverMouseY >= 0.6  && moverMouseY <= 1.4)
+    if(moverMouseX >= -3.5 && moverMouseX <= 3.5 &&
+       moverMouseY >= 1.2 && moverMouseY <= 2.0)
     {
         glColor3f(0.0f, 1.0f, 0.0f);
     }
@@ -509,17 +490,39 @@ void desenharQuiz()
     }
 
     glBegin(GL_QUADS);
-        glVertex2f(-4.5, 1.4);
-        glVertex2f( 2.5, 1.4);
-        glVertex2f( 2.5, 0.6);
-        glVertex2f(-4.5, 0.6);
+        glVertex2f(-3.5f, 2.0f);
+        glVertex2f( 3.5f, 2.0f);
+        glVertex2f( 3.5f, 1.2f);
+        glVertex2f(-3.5f, 1.2f);
     glEnd();
 
     glColor3f(1,1,1);
-    desenharTexto("B) " + quiz[perguntaAtual].B, -4.0f, 1.0f);
+    desenharTexto("A) " + quiz[perguntaAtual].A, -3.0f, 1.6f);
+
+    // ---------- BOTÃO B ----------
+    if(moverMouseX >= -3.5 && moverMouseX <= 3.5 &&
+       moverMouseY >= 0.2 && moverMouseY <= 1.0)
+    {
+        glColor3f(0.0f, 1.0f, 0.0f);
+    }
+    else
+    {
+        glColor3f(0.3f, 0.3f, 0.3f);
+    }
+
+    glBegin(GL_QUADS);
+        glVertex2f(-3.5f, 1.0f);
+        glVertex2f( 3.5f, 1.0f);
+        glVertex2f( 3.5f, 0.2f);
+        glVertex2f(-3.5f, 0.2f);
+    glEnd();
+
+    glColor3f(1,1,1);
+    desenharTexto("B) " + quiz[perguntaAtual].B, -3.0f, 0.6f);
 
     // ---------- BOTÃO C ----------
-    if( moverMouseX >= -4.5 && moverMouseX <= 2.5 && moverMouseY >= -0.4  && moverMouseY <= 0.4)
+    if(moverMouseX >= -3.5 && moverMouseX <= 3.5 &&
+       moverMouseY >= -0.8 && moverMouseY <= 0.0)
     {
         glColor3f(0.0f, 1.0f, 0.0f);
     }
@@ -529,17 +532,18 @@ void desenharQuiz()
     }
 
     glBegin(GL_QUADS);
-        glVertex2f(-4.5, 0.4);
-        glVertex2f( 2.5, 0.4);
-        glVertex2f( 2.5,-0.4);
-        glVertex2f(-4.5,-0.4);
+        glVertex2f(-3.5f, 0.0f);
+        glVertex2f( 3.5f, 0.0f);
+        glVertex2f( 3.5f,-0.8f);
+        glVertex2f(-3.5f,-0.8f);
     glEnd();
 
     glColor3f(1,1,1);
-    desenharTexto("C) " + quiz[perguntaAtual].C, -4.0f, 0.0f);
+    desenharTexto("C) " + quiz[perguntaAtual].C, -3.0f, -0.4f);
 
     // ---------- BOTÃO D ----------
-    if( moverMouseX >= -4.5 && moverMouseX <= 2.5 && moverMouseY >= -1.4  && moverMouseY <= -0.6)
+    if(moverMouseX >= -3.5 && moverMouseX <= 3.5 &&
+       moverMouseY >= -1.8 && moverMouseY <= -1.0)
     {
         glColor3f(0.0f, 1.0f, 0.0f);
     }
@@ -549,14 +553,14 @@ void desenharQuiz()
     }
 
     glBegin(GL_QUADS);
-        glVertex2f(-4.5,-0.6);
-        glVertex2f( 2.5,-0.6);
-        glVertex2f( 2.5,-1.4);
-        glVertex2f(-4.5,-1.4);
+        glVertex2f(-3.5f,-1.0f);
+        glVertex2f( 3.5f,-1.0f);
+        glVertex2f( 3.5f,-1.8f);
+        glVertex2f(-3.5f,-1.8f);
     glEnd();
 
     glColor3f(1,1,1);
-    desenharTexto("D) " + quiz[perguntaAtual].D, -4.0f, -1.0f);
+    desenharTexto("D) " + quiz[perguntaAtual].D, -3.0f, -1.4f);
 }
 
 void responder(char resposta) {
@@ -965,7 +969,7 @@ void desenharCena() {
             desenharSprite(idBotao, 4.0, 3.6, 0.0, 1.0, 1.0); 
             desenharSprite(idMoeda, 3.0, 3.62, 0.0, 0.8, 0.8);
             glColor3f(0.290196f, 0.200000f, 0.098039f);
-            desenharTexto( std::to_string(moedas), 2.7, 3.52);
+            desenharTexto( std::to_string(moedas), 2.6, 3.52);
             desenharSprite(idQuiz, 1.7, 3.6, 0.0, 0.8, 0.3);
         glPopMatrix();  
 
@@ -977,7 +981,7 @@ void desenharCena() {
         desenharSprite(idBotao, 4.0, 3.6, 0.0, 1.0, 1.0);
         desenharSprite(idMoeda, 3.0, 3.62, 0.0, 0.8, 0.8);
         glColor3f(0.290196f, 0.200000f, 0.098039f);
-        desenharTexto(  std::to_string(moedas), 2.7, 3.52);
+        desenharTexto(  std::to_string(moedas), 2.6, 3.52);
         desenharSprite(idQuiz, 1.7, 3.6, 0.0, 0.8, 0.3);
     glPopMatrix();
 
@@ -987,7 +991,7 @@ void desenharCena() {
         desenharSprite(idBotao, 4.0, 3.6, 0.0, 1.0, 1.0);
         desenharSprite(idMoeda, 3.0, 3.62, 0.0, 0.8, 0.8);
         glColor3f(0.290196f, 0.200000f, 0.098039f);
-        desenharTexto( std::to_string(moedas), 2.7, 3.52);
+        desenharTexto( std::to_string(moedas), 2.6, 3.52);
         desenharSprite(idQuiz, 1.7, 3.6, 0.0, 0.8, 0.3);
     }
 
@@ -1037,36 +1041,44 @@ void mouse(int botao, int estado, int x, int y) {
             }
         }
 
-        if(telaAtual == 2) {
-            // Alternativa A
-            if(mouseX >= -4 && mouseX <= 2 && mouseY >= 1.8 && mouseY <= 2.2) {
-                alternativaSelecionada = 'A';
-                responder('A');
-            }
-
-            // Alternativa B
-            if(mouseX >= -4 && mouseX <= 2 && mouseY >= 0.8 && mouseY <= 1.2) {
-                alternativaSelecionada = 'B';
-                responder('B');
-            }
-
-            // Alternativa C
-            if(mouseX >= -4 && mouseX <= 2 && mouseY >= -0.2 && mouseY <= 0.2) {
-                alternativaSelecionada = 'C';
-                responder('C');
-            }
-
-            // Alternativa D
-            if(mouseX >= -4 && mouseX <= 2 && mouseY >= -1.2 && mouseY <= -0.8) {
-                alternativaSelecionada = 'D';
-                responder('D');
-            }
+       if(telaAtual == 2){
+        // Alternativa A
+        if(mouseX >= -3.5 && mouseX <= 3.5 &&
+        mouseY >= 1.2 && mouseY <= 2.0)
+        {
+            alternativaSelecionada = 'A';
+            responder('A');
         }
+
+        // Alternativa B
+        if(mouseX >= -3.5 && mouseX <= 3.5 &&
+        mouseY >= 0.2 && mouseY <= 1.0)
+        {
+            alternativaSelecionada = 'B';
+            responder('B');
+        }
+
+        // Alternativa C
+        if(mouseX >= -3.5 && mouseX <= 3.5 &&
+        mouseY >= -0.8 && mouseY <= 0.0)
+        {
+            alternativaSelecionada = 'C';
+            responder('C');
+        }
+
+        // Alternativa D
+        if(mouseX >= -3.5 && mouseX <= 3.5 &&
+        mouseY >= -1.8 && mouseY <= -1.0)
+        {
+            alternativaSelecionada = 'D';
+            responder('D');
+        }
+}
 
         if( telaAtual == 1){
             if (mouseX >= -4.1 && mouseX <= -3.1 && mouseYReal >= 0.8 && mouseYReal <= 1.2){
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 15){
+                    moedas -= 15;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 1; 
@@ -1087,8 +1099,8 @@ void mouse(int botao, int estado, int x, int y) {
 
          if( telaAtual == 1){
             if (mouseX >= -2.3 && mouseX <= -1.3 && mouseYReal >= 0.8 && mouseYReal <= 1.2) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 15){
+                    moedas -= 15;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 2; 
@@ -1108,8 +1120,8 @@ void mouse(int botao, int estado, int x, int y) {
 
          if( telaAtual == 1){
             if (mouseX >= -0.5 && mouseX <= 0.5 && mouseYReal >= 0.8 && mouseYReal <= 1.2) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 15){
+                    moedas -= 15;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 3; 
@@ -1129,8 +1141,8 @@ void mouse(int botao, int estado, int x, int y) {
 //-----------
         if( telaAtual == 1){
            if (mouseX >= 1.3 && mouseX <= 2.3 && mouseYReal >= 0.8 && mouseYReal <= 1.2) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 15){
+                    moedas -= 15;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 4; 
@@ -1150,8 +1162,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= 3.1 && mouseX <= 4.1 && mouseYReal >= 0.8 && mouseYReal <= 1.2) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 20){
+                    moedas -= 20;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 5; 
@@ -1171,8 +1183,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= -4.1 && mouseX <= -3.1 && mouseYReal >= -1.5 && mouseYReal <= -1.1) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 20){
+                    moedas -= 20;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 6; 
@@ -1192,8 +1204,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
            if (mouseX >= -2.3 && mouseX <= -1.3 && mouseYReal >= -1.5 && mouseYReal <= -1.1) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 30){
+                    moedas -= 30;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 7; 
@@ -1213,8 +1225,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= -0.5 && mouseX <= 0.5 && mouseYReal >= -1.5 && mouseYReal <= -1.1) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 35){
+                    moedas -= 35;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 8; 
@@ -1234,8 +1246,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= 1.3 && mouseX <= 2.3 && mouseYReal >= -1.5 && mouseYReal <= -1.1) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 35){
+                    moedas -= 35;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 9; 
@@ -1256,8 +1268,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= 3.1 && mouseX <= 4.1 && mouseYReal >= -1.5 && mouseYReal <= -1.1) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 50){
+                    moedas -= 50;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 10; 
@@ -1277,8 +1289,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= -4.1 && mouseX <= -3.1 && mouseYReal >= -3.8 && mouseYReal <= -3.4) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 60){
+                    moedas -= 60;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 11; 
@@ -1298,8 +1310,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= -2.3 && mouseX <= -1.3 && mouseYReal >= -3.8 && mouseYReal <= -3.4) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 40){
+                    moedas -= 40;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 12; 
@@ -1319,8 +1331,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= -0.5 && mouseX <= 0.5 && mouseYReal >= -3.8 && mouseYReal <= -3.4) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 70){
+                    moedas -= 70;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 13; 
@@ -1340,8 +1352,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= 1.3 && mouseX <= 2.3 && mouseYReal >= -3.8 && mouseYReal <= -3.4) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 40){
+                    moedas -= 40;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 14; 
@@ -1361,8 +1373,8 @@ void mouse(int botao, int estado, int x, int y) {
 
         if( telaAtual == 1){
             if (mouseX >= 3.1 && mouseX <= 4.1 && mouseYReal >= -3.8 && mouseYReal <= -3.4) {
-                if(moedas >= 10){
-                    moedas -= 10;
+                if(moedas >= 100){
+                    moedas -= 100;
 
                     segurandoObjeto = true;
                     objetoSelecionado = 15; 
@@ -1399,7 +1411,8 @@ void mouse(int botao, int estado, int x, int y) {
         }        
             return; 
         }
-    }-
+    }
+
 void inicializar() {
     glClearColor(0.05, 0.05, 0.1, 1.0); 
     
